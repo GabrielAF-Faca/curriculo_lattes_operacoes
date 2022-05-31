@@ -13,7 +13,7 @@ palavras_chave = []
 palavras_titulo = {}
 curriculo = {}
 
-arquivo = open(r'C:\Users\Lasimon\Desktop\Gabriel\Códigos\leitor xml lattes\lattes_leitor_xml\saidas\todos_curriculos.txt','r', encoding="utf8")
+arquivo = open(r'C:\Users\Gabri\Desktop\Codigos bolsa\todos_curriculos.txt','r', encoding="utf8")
 linhas = arquivo.readlines()
 
 for linha in linhas:
