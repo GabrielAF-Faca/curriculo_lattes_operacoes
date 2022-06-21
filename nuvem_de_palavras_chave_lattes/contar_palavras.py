@@ -164,7 +164,7 @@ for elemento in titulos_traduzidos:
 
 ocorrencias = Counter(palavras_titulo)
 ocorrencias = dict(sorted(ocorrencias.items(), key=lambda item: item[1]))
-print(ocorrencias["nanociências"])
+#print(ocorrencias)
 
 
 for elementos in ocorrencias:
